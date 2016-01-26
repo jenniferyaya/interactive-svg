@@ -16,19 +16,68 @@ html {
   box-sizing: inherit;
 }
 
-.Drop_x0020_Shadow{fill:none;} .Outer_x0020_Glow_x0020_5_x0020_pt{fill:none;} .Blue_x0020_Neon{fill:none;stroke:#8AACDA;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;} .Chrome_x0020_Highlight{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-width:0.3629;stroke-miterlimit:1;} .Jive_GS{fill:#FFDD00;} .Alyssa_GS{fill:#A6D0E4;} .st0{fill:#673200;} .st1{fill:#FFAACA;} .st2{fill:#C65B00;} .st3{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.drop-x0020-shadow {
+  fill: none;
+}
 
+.outer-x0020-glow-x0020-5-x0020-pt {
+  fill: none;
+}
+
+.blue-x0020-neon {
+  fill: none;
+  stroke: #8aacda;
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.chrome-x0020-highlight {
+  fill: url"#svgid-1";
+  stroke: #fff;
+  stroke-width: 0.3629;
+  stroke-miterlimit: 1;
+}
+
+.jive-gs {
+  fill: #fd0;
+}
+
+.alyssa_gs {
+  fill: #a6d0e4;
+}
+
+.st0 {
+  fill: #673200;
+}
+
+.st1 {
+  fill: #ffaaca;
+}
+
+.st2 {
+  fill: #c65b00;
+}
+
+.st3 {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
 
 .bear {
-	width: 300px;
+  width: 300px;
 }
 
 #left-eye {
-	animation: eyes 1s infinite alternate;
+  animation: eyes 1s infinite alternate;
 }
 
 #right-eye {
-	animation: eyes 1s infinite alternate;
+  animation: eyes 1s infinite alternate;
 }
 
 @keyframes eyes {
@@ -40,13 +89,13 @@ html {
 }
 
 .bear:hover #left-eye {
-	transform: translate(20px, 0);
-	transition: all 2s linear;
+  transform: translate(20px, 0);
+  transition: all 2s linear;
 }
 
 .bear:hover #right-eye {
-	transform: translate(20px, 0);
-	transition: all 2s linear;
+  transform: translate(20px, 0);
+  transition: all 2s linear;
 }
 
 @keyframes ears {
@@ -58,13 +107,13 @@ html {
 }
 
 .bear:hover #left-ear {
-	transform: translate(0px, 15px);
-	transition: all 1s linear;
-	animation: ears 1s infinite alternate;
+  transform: translate(0, 15px);
+  transition: all 1s linear;
+  animation: ears 1s infinite alternate;
 }
 
 .bear:hover #right-ear {
-	transform: translate(0px, 15px);
-	transition: all 1s linear;
-	animation: ears 1s infinite alternate;
+  transform: translate(0, 15px);
+  transition: all 1s linear;
+  animation: ears 1s infinite alternate;
 }
