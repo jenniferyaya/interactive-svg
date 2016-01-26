@@ -16,24 +16,52 @@ html {
   box-sizing: inherit;
 }
 
-.left-ear {
+.bear {
+	width: 300px;
+}
+
+#left-eye {
+	animation: eyes 1s infinite alternate;
+}
+
+#right-eye {
+	animation: eyes 1s infinite alternate;
+}
+
+@keyframes eyes {
+
+  0% { transform: translate(0, 0); }
+
+  100% { transform: translate(20px, 0); }
 
 }
 
-.right-ear {
+.bear:hover #left-eye {
+	transform: translate(20px, 0);
+	transition: all 2s linear;
+}
+
+.bear:hover #right-eye {
+	transform: translate(20px, 0);
+	transition: all 2s linear;
+}
+
+@keyframes ears {
+
+  0% { transform: translate(0, 0); }
+
+  100% { transform: translate(0, 15px); }
 
 }
 
-.left-eye {
-	transform: translateX(9deg);
+.bear:hover #left-ear {
+	transform: translate(0px, 15px);
+	transition: all 1s linear;
+	animation: ears 1s infinite alternate;
 }
 
-
-
-.right-eye {
-	transition: eyes 2s infinite linear;
-}
-
-.left-eye:hover, .right-eye:hover {
-	transition: eyes 2s inifinite linear;
+.bear:hover #right-ear {
+	transform: translate(0px, 15px);
+	transition: all 1s linear;
+	animation: ears 1s infinite alternate;
 }
